@@ -174,9 +174,13 @@ img {
 
 /** logo **/
 .logo {
-	margin-left:-92px;
+	position: absolute;
+	top: 0px;
+	left: 12px;
+	/* margin-left:40%; */
 	display: inline-block;
 	margin-top: 3px;
+	
 	
 }
 /** navigation **/
