@@ -693,7 +693,10 @@ p a:hover {
 	max-width: 40px;
 }
 
-
+#create-text
+{
+	margin-left:5px;
+}
 
 
 #create-text h4
@@ -704,6 +707,11 @@ p a:hover {
     font-weight: 600;
 	font-size: 20px;
 	margin-top: 4px;
+	display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+
+color: #485568;
 }
 
 
