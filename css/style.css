@@ -666,3 +666,119 @@ p a:hover {
 #footnote .connect a.pinterest {
 	background-position: 0 -196px;
 }
+
+
+#create
+{
+
+	display: flex;
+	align-items: center;
+	margin-left: 47px;
+
+}
+
+
+
+#image-section
+
+{
+	margin-left: 10%px;
+    margin-left: 5px;
+
+}
+
+#image-section img
+{
+	height: 40px;
+	max-width: 40px;
+}
+
+
+
+
+#create-text h4
+{
+	text-align: center;
+	font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+	font-size: 20px;
+	margin-top: 4px;
+}
+
+
+#line-section
+{
+	
+	width: 52%;
+	margin-left:10px;
+}
+
+#line-section1
+{
+	
+	width: 71%;
+	margin-left:10px;
+}
+
+#image-section1 img
+{
+	height: 40px;
+	max-width: 40px;
+}
+
+
+#line-section2
+{
+	
+	width: 76%;
+	margin-left:10px;
+}
+
+#line-section2 img
+{
+	
+	width: 94%;
+	margin-left:10px;
+}
+
+
+
+#line-section3
+{
+	
+	width: 65%;
+	margin-left:10px;
+}
+
+#line-section3 img
+{
+	
+	width: 97%;
+	margin-left:10px;
+}
+
+
+
+
+#line-section1 img
+{
+	
+	width: 100%;
+}
+
+
+#line-section img
+{
+	width: 100%;
+}
+
+#arrow-section
+{
+	margin-left: 15px;
+}
+
+#back-section
+{
+	margin-left: 10px;
+}
