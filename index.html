@@ -60,38 +60,66 @@
 
     /* user description starts */
 
-    .user-desc {
+.user-input
+{ background-color: #DAE4FF;
+    display: flex;
     width: 100%;
+
+}
+
+.user-input1
+{
+    width:35%;
+    padding-left: 67px;
+    padding-right: 20px;
     background-color: #DAE4FF;
+    padding-top: 7px;
+
 }
 
-.user-desc1 {
-    margin-top: 9px;
+
+.user-input2
+{
+    width:65%;
+    background-color: #DAE4FF;
+    padding-top: 7px;
+    
+}
+
+
+@media only screen and (max-width: 765px) {
+  .user-input
+{
+
+
+    display:inline;
     width: 100%;
+
 }
 
-.user-desc2 {
-    margin-top: 9px;
+.user-input1
+{
+    width:100%;
+    padding-left: 55px;
+    padding-right: 20px;
+
+
+}
+
+
+.user-input2
+{
     width: 100%;
+    padding-left: 55px;
+    padding-right: 20px;
+    margin-top: -16px;
+    padding-top: 9px;
+    padding-bottom: 1px;
+
+    
 }
 
-.row-updated {
-    width: 85%;
-    margin-left: 53px;
-    margin-right: 0px;
 }
-
-@media only screen and (min-width: 768px) {
-    .user-desc1 {
-        margin-left: 0;
-        width: 329px;
-    }
-
-    .user-desc2 {
-        width: 42%;
-    }
-}
-
 
     /* user description ends */
 
@@ -220,6 +248,7 @@
 
 .row-card{
     width: 90%;
+ 
 }
 
 /* Float four columns side by side */
@@ -228,6 +257,7 @@
   float: left;
   width: 50%;
   padding: 0 10px;
+  height:10px;
 }
 
 .column-card2 {
@@ -426,43 +456,42 @@
 
         <!-- NOTICE AREA ENDS-->
 
-    </div>
+   
 
 
     <!-- USER DESCRIPTION STARTS-->
 
-    <div class="user-desc">
+<div style="margin-top: -2px ;  background-color: #DAE4FF; z-index: 1;">
+    <div class="user-input">
 
-        <div class="row row-updated">
+        <div class="user-input1">
 
-            <div class="col-3 user-desc1">
-                <div>
-                    <h6
+            <h6
                         style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;">
                         Name: <span style="font-weight: 300;">Vaibhav Karalkar</span></p>
                         <h6
                             style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;margin-top: -6px;">
                             User Division: <span style="font-weight: 300;">Disbursement</span></p>
-                </div>
-            </div>
 
-            <div class="col-9 user-desc2">
-                <div>
-                    <h6
-                        style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;">
-                        Last Accessed: <span style="font-weight: 300;">20-01-2023 | 9:23 a.m</span></p>
-                        <h6
-                            style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;margin-top: -6px;">
-                            Working Division: <span style="font-weight: 300;">Disbursement &nbsp;&nbsp;<a href=""
-                                    style="font-weight: 'Poppins';font-size: 12px;color: #243C79;">(Change Working
-                                    Division)</a></span></p>
-                </div>
-            </div>
+        </div>
+
+        <div class="user-input2">
+
+            <h6
+            style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;">
+            Last Accessed: <span style="font-weight: 300;">20-01-2023 | 9:23 a.m</span></p>
+            <h6
+                style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;margin-top: -6px;">
+                Working Division: <span style="font-weight: 300;">Disbursement &nbsp;&nbsp;<a href=""
+                        style="font-weight: 'Poppins';font-size: 12px;color: #243C79;">(Change Working
+                        Division)</a></span></p>
 
         </div>
 
     </div>
 
+</div>
+</div>
     <!-- USER DESCRIPTION ENDS-->
 
     <!-- Divider area starts-->
