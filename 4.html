@@ -18,6 +18,11 @@
 </head>
 
 <style>
+
+.ar{
+    margin-top: 5px;
+    margin-bottom:5px;
+}
     /* navbar area */
 
     .navbar-light .navbar-nav .nav-link {
@@ -284,7 +289,7 @@
     padding-top: 35px;
     border: 1px solid #CECECE;
     border-radius: 8px;
-    height: 250px;
+    height: 150px;
     
 }
 
@@ -297,7 +302,55 @@
     border: 1px solid #CECECE; 
     border-radius: 8px;
     background-color: #EEF3FF ;
-    height: 150px;
+    
+}
+
+
+.OD
+{
+    
+    width:90%;
+    margin-top:20px;
+    display:flex;
+    height:auto;
+    justify-content: center;
+}
+
+.OD-left
+{
+    text-align: left;
+    width:20%;
+    padding-left: 30px;
+    padding-top:50px;
+    
+}
+
+.OD-right
+{
+width:80%;
+border: 1px solid #CECECE;
+    border-radius: 8px;
+    background-color: #EEF3FF;
+    padding-left: 15px;
+    padding-right:12px;
+    padding-top:15px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    text-align: left;
+}
+
+.OD-left-text
+{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-size: 14px;
+     font-weight: bold;
+}
+
+.OD-right-text
+{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-size: 14px;
 }
  
 </style>
@@ -480,28 +533,46 @@
 
 </div>
 
-    <!-- USER DESCRIPTION ENDS-->
-
-    <!-- Divider area starts-->
-
+<!-- Process Divider-->
     <div class="area21">
         <div class="area2-container">
             <div class="area21-item">
-                <img src="images/laptop.svg" alt="LOGO" class="area2-icon">
-                <span class="area2-text">INDIVIDUAL TECHNICAL REQUEST</span>
+                <img src="images/a.svg" alt="LOGO" class="area2-icon">
+                <span class="area2-text">PROCESS</span>
             </div>
             <div class="area2-hr">
-                <hr class="hr-tag">
+                <hr>
             </div>
-           <a href="#"> <div class="area21-item">
-                <img src="images/arrow.svg" alt="LOGO" class="area2-icon area2-icon-arrow">
-                <img src="images/back.svg" alt="LOGO" class="area2-icon area2-icon-back">
-            </div></a>
+        </div>
+      </div>
+
+<!-- Text area-->   
+<center>
+<div class="process-section">
+    <div class="process-text">
+        <p class="process-text-area">1. Request get created by Technical Admin and assign to Legal Agency/Tech Team/Agency/Executive.</p>
+        <p class="process-text-area">2. Legal agency creates report.</p>
+        <p class="process-text-area">3. Technical admin gets report created by legal agency and assign BCM to it.</p>
+        <p class="process-text-area">4. BCM creates deviation sheet and forward it to reporting user for approval.</p>
+    </div>
+</div>
+</center>
+
+
+<!-- REQUEST ID: SYSTEM WILL GENERATE IT ON SUBMIT REQUEST Divider-->
+<div class="area21">
+    <div class="area2-container">
+        <div class="area21-item">
+            <img src="images/b.svg" alt="LOGO" class="area2-icon">
+            <span class="area2-text">REQUEST ID: SYSTEM WILL GENERATE IT ON SUBMIT REQUEST</span>
+        </div>
+        <div class="area2-hr">
+            <hr>
         </div>
     </div>
+  </div>
 
-    <!-- Divider area ends-->
- <center>
+  <center>
     <div class="row-card">
         <div class="column-card1" >
           <div class="card">
@@ -510,39 +581,104 @@
 
                 <tr>
 
-                    <td style="font-weight:bold">Request ID:</td>
-                    <td>HRQ-22-264</td>
-                </tr>
-                <tr>
-
                     <td style="font-weight:bold">Status:</td>
-                    <td>Work In Progress</td>
+                    <td>New</td>
                 </tr>
-
                 <tr>
 
                     <td style="font-weight:bold">Type:</td>
                     <td>Individual Technical Request</td>
                 </tr>
+
                 <tr>
 
-                    <td style="font-weight:bold"> Technical Admin:</td>
-                    <td>Vaibhav Karalkar</td>
+                    <td style="font-weight:bold">Channel:</td>
+                    <td><div style="background: #FFFFFF;
+                        /* Transparent Dark/05 */
+                        border: 0.5px solid rgba(0, 0, 0, 0.05);
+                        /* Button/Shadow */
+                        box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);
+                        border-radius: 4px;;
+                        width: 65%;
+                        height: 25px;text-align: center;"></div>
+                        
+                        </td>
+                </tr>
+             
+
+
+                    </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="column-card2">
+          <div class="card">
+            <table class="table" width="90%" style="margin-top:-8px" >
+
+
+                <tr>
+
+                    <td style="font-weight:bold">Branch:</td>
+                    <td> <select> Select Branch
+                        <option value="default">Select </option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                      </select></td>
+                </tr>
+                <tr>
+
+                    <td style="font-weight:bold">Date Of Request:</td>
+                    <td>22-DEC-2022 12:11:45</td>
                 </tr>
 
                 <tr>
 
-                    <td style="font-weight:bold"> Technical Executive:</td>
-                    <td>Not Assigned</td>
+                    <td style="font-weight:bold">Technical Admin:</td>
+                    <td>System will assign it on submit</td>
                 </tr>
+        
+
+                    </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </center>   
+
+
+    <!-- REQUEST ID: SYSTEM WILL GENERATE IT ON SUBMIT REQUEST Divider-->
+<div class="area21">
+    <div class="area2-container">
+        <div class="area21-item">
+            <img src="images/c.svg" alt="LOGO" class="area2-icon">
+            <span class="area2-text">CUSTOMER DETAILS</span>
+        </div>
+        <div class="area2-hr">
+            <hr>
+        </div>
+    </div>
+  </div>
+
+
+
+  <center>
+    <div class="row-card">
+        <div class="column-card1" >
+          <div class="card">
+            <table class="table" width="90%">
+
 
                 <tr>
 
-                    <td style="font-weight:bold"> Recommended Name:</td>
-                    <td>Not Assigned</td>
+                    <td style="font-weight:bold">Application Number:</td>
+                    <td  style="padding: 2px 40px;"><div class="blue-box"></div></td>
                 </tr>
-
                 <tr>
+
+                    <td style="font-weight:bold">Customer Number:</td>
+                    <td  style="padding: 2px 40px;"><div class="blue-box"></div></td>
+                </tr>
 
 
                     </tbody>
@@ -556,39 +692,19 @@
 
                 <tr>
 
-                    <td style="font-weight:bold">Possible Action:</td>
-                    <td>jii</td>
+                    <td style="font-weight:bold;width: 50%;"><select> 
+                        <option value="default">Select Branch</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                      </select></td>
+                    <td style="width: 100%;"><div class="white-box"></div></td>
+                    <td><div class="SDU1" >
+                        <div class="SDU-text"> Fetch APS Data
+                        </div>
+                    
+                    </div></td>
                 </tr>
-                <tr>
-
-                    <td style="font-weight:bold">Date Of Request:</td>
-                    <td>dd/mm/yyyy</td>
-                </tr>
-
-                <tr>
-
-                    <td style="font-weight:bold">Channel:</td>
-                    <td>Individual Technical Request</td>
-                </tr>
-                <tr>
-
-                    <td style="font-weight:bold"> Technical Agency:</td>
-                    <td>Vaibhav Karalkar</td>
-                </tr>
-
-                <tr>
-
-                    <td style="font-weight:bold"> Technical Team Employee:</td>
-                    <td>Not Assigned</td>
-                </tr>
-
-                <tr>
-
-                    <td style="font-weight:bold"> Branch:</td>
-                    <td>(10056) Bangalore Yashwantpur</td>
-                </tr>
-
-                <tr>
+          
 
 
                     </tbody>
@@ -597,238 +713,382 @@
         </div>
       </div>
 
-    </center>
-  
-    <!-- card1 and card2 area ends-->
+    </center>   
 
 
-    <!-- 2nd divider starts-->
+
+    <!-- REQUEST ID: SYSTEM WILL GENERATE IT ON SUBMIT REQUEST Divider-->
     <div class="area21">
         <div class="area2-container">
             <div class="area21-item">
-                <img src="images/customer.svg" alt="LOGO" class="area2-icon">
-                <span class="area2-text">CUSTOMER DETAIL</span>
+                <img src="images/d.svg" alt="LOGO" class="area2-icon">
+                <span class="area2-text">PROPERTY DETAILS</span>
             </div>
             <div class="area2-hr">
                 <hr>
             </div>
         </div>
-    </div>
-
-    <!-- 2nd divider ends-->
-
-
- <center>
-    <div class="row-card" style="margin-left:0px;margin-right:0px;">
-        <div class="column-card1" >
-          <div class="card-2">
-            <table class="table" width="90%">
-
-
-                <tr>
-
-                    <td style="font-weight:bold">Applicaion Number:</td>
-                    <td>9988776655</td>
-                </tr>
-                <tr>
-
-                    <td style="font-weight:bold">Customer Name:</td>
-                    <td>Bharatkumar T H</td>
-                </tr>
-
-                <tr>
-
-                    <td style="font-weight:bold">Product Type:</td>
-                    <td>Product Type:</td>
-                </tr>
-
-
-
-                </tbody>
-            </table>
-
-          </div>
-        </div>
-        <div class="column-card2">
-          <div class="card-2">
-            <table class="table" width="90%">
-
-
-                <tr>
-
-                    <td style="font-weight:bold">Business Group:</td>
-                    <td>HL-HF Mortgages</td>
-                </tr>
-                <tr>
-
-                    <td style="font-weight:bold">Request For:</td>
-                    <td>HFC</td>
-                </tr>
-
-                <tr>
-
-                    <td style="font-weight:bold">Product:</td>
-                    <td>Home Loan Self Construction</td>
-                </tr>
-
-
-
-                </tbody>
-            </table>
-          </div>
-        </div>
       </div>
+   
+
+      <center>
+        <div class="pd">
     
+            <div class="t1">
+                
+                <table class="table" width="90%" class="t1-table">
+    
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Unit NO:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+                    <tr>
+    
+                        <td style="font-weight:bold">Property Address:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+                    <tr>
+    
+                        <td style="font-weight:bold"></td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Legal Address:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
 
+
+                    <tr>
+    
+                        <td style="font-weight:bold"></td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+
+
+                    <tr>
+    
+                        <td style="font-weight:bold"> Land Area:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+
+
+                    <tr>
+    
+                        <td style="font-weight:bold"></td>
+                        <td><div style="font-weight: bold;"> (As per Agreement in Sq Ft)</div></td>
+                    </tr>
+    
+                    <tr>
+    
+                        <td style="font-weight:bold"> Constructed Area:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+    
+                    <tr>
+    
+                        <td style="font-weight:bold"> Cost:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+
+
+                    <tr>
+                        <td style="font-weight:bold"></td>
+                        <td><div style="font-weight: bold;"> (As per Customer Estimate)</div></td>
+                    </tr>
+    
+                    <tr>
+    
+    
+                        </tbody>
+                </table>
+    
+    
+    
+            </div>
+    
+            <div class="t2">
+                
+                <table class="table" width="90%" style="margin-top:0px">
+    
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Business Group:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select></td>
+                    </tr>
+                    <tr>
+    
+                        <td style="font-weight:bold">Product Of:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select></td>
+                    </tr>
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Product Type:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select></td>
+                    </tr>
+                    <tr>
+    
+                        <td style="font-weight:bold"> Products:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select></td>
+                    </tr>
+    
+                    <tr>
+    
+                        <td style="font-weight:bold"> Country:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select></td>
+                    </tr>
+    
+                    <tr>
+    
+                        <td style="font-weight:bold"> State:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+
+
+       <tr>
+    
+                        <td style="font-weight:bold"> City:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select></td>
+                    </tr>
+    
+                    <tr>
+    
+                        <td style="font-weight:bold"> PIN:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+    
+                    
+                    <tr>
+    
+                        <td style="font-weight:bold"> Landmark:</td>
+                        <td><div class="blue-box"></div></td>
+                    </tr>
+    
+                        </tbody>
+                </table>
+    
+    
+            </div>
+    
+        </div>
     </center>
+      
+       
 
 
 
-    <!-- card3 and card4 starts-->
-
-    <!-- card3 and card4 ends-->
-
-
-    <div class="area21">
-        <div class="area2-container">
-            <div class="area21-item">
-                <img src="images/building.svg" alt="LOGO" class="area2-icon">
-                <span class="area2-text">PROPERTY DETAIL</span>
+        </center>
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/e.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">CONTACT PERSONS DETAILS</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
             </div>
-            <div class="area2-hr">
-                <hr>
-            </div>
-        </div>
-    </div>
-
-<center>
-    <div class="pd">
-
-        <div class="t1">
-            
-            <table class="t1-table">
-                <tr>
-                    <td style="font-weight:bold">Property Type:</td>
-                    <td>Residential </td>
-                </tr>
-                <tr>
-
-                    <td style="font-weight:bold">Unit Number:</td>
-                    <td>101</td>
-                </tr>
-
-                <tr>
-
-                    <td style="font-weight:bold">Unit Type:</td>
-                    <td>Bungalow</td>
-                </tr>
-                <tr>
-
-                    <td style="font-weight:bold">Property Address:</td>
-                    <td>U/C Property no. 101. Shubha Yoga Layout Anagalapu Ra Village
-                        Bidarahalli Bangaluru 562149</td>
-                </tr>
-
-                <tr>
-
-                    <td style="font-weight:bold">Legal Address:<br><a href="" style="font-family: 'Poppins';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 12px;color:  #215CF2;">(Change Legal Address)</a></td>
-                    <td>U/C Property no. 101. Shubha Yoga Layout Anagalapu Ra Village
-                        Bidarahalli Bangaluru 562149</td>
-                </tr>
-
-                <td style="font-weight:bold">City</td>
-                <td>Bangaluru</td>
-
-                </tbody>
-            </table>
-
-
-
-        </div>
-
-        <div class="t2">
-            
-            <table class="t1-table">
-
-                <tr>
-
-                    <td style="font-weight:bold">State:</td>
-                    <td>Karnataka</td>
-                </tr>
-                <tr>
-
-                    <td style="font-weight:bold">Pin:</td>
-                    <td>560077</td>
-                </tr>
-                <tr>
-
-                    <td style="font-weight:bold">Country:</td>
-                    <td>India</td>
-                </tr>
-
-                <tr>
-
-                    <td style="font-weight:bold">Landmark:</td>
-                    <td>Anagalapura Bus Stop</td>
-                </tr>
-
-                <td style="font-weight:bold">Cnstructed Area:</td>
-                <td></td>
-                </tr>
-
-                <td style="font-weight:bold">Landarea:</td>
-                <td></td>
-                </tr>
-
-
-
-                </tbody>
-            </table>
-
-
-        </div>
-
-    </div>
-</center>
-    <!-- property details section starts-->
-
- 
-
-    <!-- property details section ends-->
-    <div class="area21">
-        <div class="area2-container">
-            <div class="area21-item">
-                <img src="images/last.svg" alt="LOGO" class="area2-icon">
-                <span class="area2-text">CONTACT PERSON DETAIL</span>
-            </div>
-            <div class="area2-hr">
-                <hr>
-            </div>
-        </div>
-      </div>
-      
-      <div class="user-desc-contact" style="margin-top:15px;background-color: white;">
-      
-          <div class="row" style="margin-left:0px;margin-right:0px;">
-      
-              <div class="col-3 contact-detail">
-                  <div>
-                      <h6 style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;">Name:  <span style="font-weight: 300;">Bharatkumar TH</span></p>
-                  </div>
-              </div>
-      
-              <div class="col-6 contact-detail">
-                  <div>
-                  </div>
-              </div>
-      
           </div>
-      </div>
 
-</body>
+
+          <center>
+            <div class="row-card">
+                <div class="column-card1" >
+                  <div class="card">
+                    <table class="table" width="90%">
+        
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Name:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Customer Mobile No:</td>
+                            <td></td>
+                        </tr>
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Req Initiator Id:</td>
+                            <td></td>
+                        </tr>
+                     
+        
+        
+                            </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="column-card2">
+                  <div class="card">
+                    <table class="table" width="90%" style="margin-top:-8px">
+        
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Sales Manager Mobile No:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Req Initiator Name/CPC Code:</td>
+                            <td></td>
+                        </tr>
+        
+                
+        
+                            </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+        
+            </center> 
+
+
+            <div class="area21 ar">
+                <div class="area2-container">
+                    <div class="area21-item">
+                        <img src="images/boundaries.svg" alt="LOGO" class="area2-icon">
+                        <span class="area2-text">BOUNDARIES</span>
+                    </div>
+                    <div class="area2-hr">
+                        <hr>
+                    </div>
+                </div>
+              </div>
+        
+    
+    
+              <center>
+                <div class="pd" style="background-color: #EEF3FF;">
+            
+                    <div class="t1">
+                        
+                        <table class="t1-table">
+                            <tr>
+                                <td style="font-weight:bold">East :</td>
+                                <td</td>
+                            </tr>
+                            <tr>
+            
+                                <td style="font-weight:bold">North:</td>
+                                <td></td>
+                            </tr>
+            
+                            <tr>
+            
+                                <td style="font-weight:bold">Remark</td>
+                                <td><div style="background: #FFFFFF;
+                                    /* Transparent Dark/05 */
+                                    border: 0.5px solid rgba(0, 0, 0, 0.05);
+                                    /* Button/Shadow */
+                                    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);
+                                    border-radius: 4px;;
+                                    width: 600%;
+                                    height: 25px;text-align: center;"></div></td>
+                            </tr>
+                          
+            
+                            </tbody>
+                        </table>
+            
+            
+            
+                    </div>
+            
+                    <div class="t2">
+                        
+                        <table class="t1-table">
+            
+                            <tr>
+                                <td style="font-weight:bold">West:</td>
+                                <td</td>
+                            </tr>
+                            <tr>
+            
+                                <td style="font-weight:bold">South:</td>
+                                <td></td>
+                            </tr>
+            
+                            </tbody>
+                        </table>
+            
+                    </div> 
+                  
+                 
+
+                </div>
+
+
+               
+
+</div>
+
+            </center>
+    
+<center>
+            <div class="application-request">
+
+                <div class="application-request-text">
+                    Replication Request:
+                </div>
+
+                <div class="application-request-option">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Yes
+                        </label>
+                      </div>
+                      <div class="form-check form123">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          No
+                        </label>
+                      </div>
+                </div>
+                      
+
+                
+            </div>
+
+        </center>
+
+        <br>
+        <br>
+        <br>
 
 </html>
 
