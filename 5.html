@@ -1,0 +1,2395 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Ameya</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<style>
+    /* navbar area */
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #000000;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .nav-bar {
+        font-family: 'Poppons';
+        color: #000;
+        text-decoration: none;
+        margin-left: 0.155em;
+    }
+
+    .navbar-nav>li {
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: 1.255em;
+        vertical-align: 0.255em;
+        content: "";
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent;
+    }
+
+    .navbar-navv {
+        margin-left: 50px;
+    }
+
+    /* navbar area close */
+
+    /* user description starts */
+
+.user-input
+{ background-color: #DAE4FF;
+    display: flex;
+    width: 100%;
+
+}
+
+.user-input1
+{
+    width:35%;
+    padding-left: 67px;
+    padding-right: 20px;
+    background-color: #DAE4FF;
+    padding-top: 7px;
+
+}
+
+
+.user-input2
+{
+    width:65%;
+    background-color: #DAE4FF;
+    padding-top: 7px;
+    
+}
+
+
+@media only screen and (max-width: 765px) {
+  .user-input
+{
+
+
+    display:inline;
+    width: 100%;
+
+}
+
+.user-input1
+{
+    width:100%;
+    padding-left: 55px;
+    padding-right: 20px;
+
+
+}
+
+
+.user-input2
+{
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 20px;
+    margin-top: -16px;
+    padding-top: 9px;
+    padding-bottom: 1px;
+
+    
+}
+
+}
+
+    /* user description ends */
+
+    /* card1 and card2 container starts */
+    .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin-top: 25px;
+        width: 90%;
+        margin-left: 62px;
+        background: #FFFFFF;
+        border: 1px solid #CECECE;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+        backdrop-filter: blur(22.5px);
+        border-radius: 8px;
+    }
+
+
+    .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin-top: 25px;
+        width: 90%;
+        margin-left: -8px;
+        background: #FFFFFF;
+        border: 1px solid #CECECE;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+        backdrop-filter: blur(22.5px);
+        border-radius: 8px;
+
+    }
+
+    .container {
+        padding: 2px 16px;
+        width: 100%;
+    }
+
+
+    td {
+        max-width: 60px;
+        word-wrap: break-word;
+        border: none;
+
+    }
+
+    .table td,
+    .table th {
+        padding-top: 0;
+        vertical-align: top;
+        border-top: 0px solid #dee2e6;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 14px;
+     
+
+    }
+
+    /* card1 and card2 container ends */
+
+
+    /* card3 and card4 container starts */
+
+    .card3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin-top: 25px;
+        width: 90%;
+        left: 70px;
+        top: 608px;
+        margin-left: 62px;
+        background: #FFFFFF;
+        border: 1px solid #CECECE;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+        backdrop-filter: blur(22.5px);
+        border-radius: 8px;
+        background-color: #EEF3FF;                              /* change card background color */
+
+    }
+
+    .card4 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin-top: 25px;
+        width: 90%;
+        left: 70px;
+        top: 608px;
+        margin-left: -8px;
+        background: #FFFFFF;
+        border: 1px solid #CECECE;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+        backdrop-filter: blur(22.5px);
+        border-radius: 8px;
+        background-color: #EEF3FF ;                               /* change card background color */
+    }
+
+   /* card3 and card4 container ends */
+     
+.user-desc-contact{
+	width:100%;
+	background-color: #DAE4FF;
+    
+}
+
+.contact-detail
+{
+    margin-left:60px;
+    margin-top: 8px;
+}
+
+
+
+/* dropdown effect */
+
+.drop-effect {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+
+
+/* card css */
+
+.row-card{
+    width: 90%;
+        margin-top: 5px;
+ 
+}
+
+/* Float four columns side by side */
+.column-card1 {
+    justify-content: center;
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+  height:10px;
+}
+
+.column-card2 {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+/* Remove extra left and right margins, due to padding in columns */
+
+
+/* Clear floats after the columns */
+.row-card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 16px;
+    text-align: left;
+    padding-top: 35px;
+    border: 1px solid #CECECE;
+    border-radius: 8px;
+    height: 250px;
+    
+}
+
+
+.card-2 {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 16px;
+    text-align: left;
+    padding-top: 35px;
+    border: 1px solid #CECECE; 
+    border-radius: 8px;
+    background-color: #EEF3FF ;
+    height: 150px;
+}
+ 
+</style>
+
+<body>
+
+
+    <div style="position: sticky; top: 0px;z-index: 1;">
+
+        <!-- HEADER STARTS -->
+        <header>
+            <div class="container-fluid header">
+                <div class="head"><img id="myimg" src="images/logo.svg" width="70%" alt=""></div>
+                <div class="head" id="head1">Property Apraisal System</div>
+                <div class="head" id="head">
+                    <a href="#"><div class="logout">
+                        <div class="icon"><img id="myimg" src="images/logout.svg" alt=""></div>
+                        <div class="logout-text">Logout</div>
+                    </div></a>
+                    <a href="#"> <div class="logout">
+                        <div class="icon"><img src="images/home.svg" alt=""></div>
+                        <div class="logout-text">Home</div>
+                    </div></a>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER ENDS -->
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light nav-bar-section">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto navbar-navv">
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Setup
+                        </a>
+                        <div class="dropdown-menu drop-effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="">
+                            Customers
+                        </a>
+                        <div class="dropdown-menu drop-effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Properties
+                        </a>
+                        <div class="dropdown-menu drop-effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Misc. Masters
+                        </a>
+                        <div class="dropdown-menu drop-effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ops
+                        </a>
+                        <div class="dropdown-menu drop-effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Others
+                        </a>
+                        <div class="dropdown-menu drop-effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <!-- NAVBAR-ENDS-->
+
+        <!-- NOTICE AREA STARTS-->
+
+        <div class="notice-area">
+
+            <ul class="notice-item" style="display:inline;">
+               <a href="#" style="text-decoration: none;color: #000;"> <li style="display:inline;font-weight: 'Poppins';">
+                    Dashboard
+                </li></a>
+                <li style="display:inline;">
+                    &nbsp; | &nbsp;
+                </li>
+                <a href="#" style="text-decoration: none;color: #000;">  <li style="display:inline;">
+                    Notice
+                </li></a>
+            </ul>
+
+        </div>
+    </div>
+    
+        <!-- NOTICE AREA ENDS-->
+
+   
+
+
+    <!-- USER DESCRIPTION STARTS-->
+
+<div style="margin-top: -2px ;  background-color: #DAE4FF; z-index: 1;">
+    <div class="user-input">
+
+        <div class="user-input1">
+
+            <h6
+                        style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;">
+                        Name: <span style="font-weight: 300;">Vaibhav Karalkar</span></p>
+                        <h6
+                            style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;margin-top: -6px;">
+                            User Division: <span style="font-weight: 300;">Disbursement</span></p>
+
+        </div>
+
+        <div class="user-input2">
+
+            <h6
+            style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;">
+            Last Accessed: <span style="font-weight: 300;">20-01-2023 | 9:23 a.m</span></p>
+            <h6
+                style="font-family: 'Poppins';font-weight: 600;font-size: 14px;font-style: normal;color: #000000;margin-top: -6px;">
+                Working Division: <span style="font-weight: 300;">Disbursement &nbsp;&nbsp;<a href=""
+                        style="font-weight: 'Poppins';font-size: 12px;color: #243C79;">(Change Working
+                        Division)</a></span></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- USER DESCRIPTION ENDS-->
+
+    <!-- Divider area starts-->
+
+    <div class="area21">
+        <div class="area2-container">
+            <div class="area21-item">
+                <img src="images/1.1.svg" alt="LOGO" class="area2-icon">
+                <span class="area2-text">INDIVIDUAL TECHNICAL REQUEST - SITE VISIT </span>
+            </div>
+            <div class="area2-hr">
+                <hr class="hr-tag">
+            </div>
+           <a href="#"> <div class="area21-item">
+                <img src="images/arrow.svg" alt="LOGO" class="area2-icon area2-icon-arrow">
+                <img src="images/back.svg" alt="LOGO" class="area2-icon area2-icon-back">
+            </div></a>
+        </div>
+    </div>
+
+    <!-- Divider area ends-->
+ <center>
+    <div class="row-card">
+        <div class="column-card1" >
+          <div class="card">
+            <table class="table" width="90%">
+
+
+                <tr>
+
+                    <td style="font-weight:bold">Request ID:</td>
+                    <td>HRQ-22-264</td>
+                </tr>
+                <tr>
+
+                    <td style="font-weight:bold">Date of Request:</td>
+                    <td>19/DEC/2022 04:46:49 PM</td>
+                </tr>
+
+                <tr>
+
+                    <td style="font-weight:bold">Channel:</td>
+                    <td>KUNDAN SHARMA</td>
+                </tr>
+                <tr>
+
+                    <td style="font-weight:bold">Branch:</td>
+                    <td>(10003) AMBALA</td>
+                </tr>
+
+                <tr>
+
+                    <td style="font-weight:bold"> Application No:</td>
+                    <td>11223344556</td>
+                </tr>
+
+                <tr>
+
+                    <td style="font-weight:bold">Customer Name:</td>
+                    <td>RAJNEESH</td>
+                </tr>
+
+                <tr>
+
+                    <td style="font-weight:bold">Product Type:</td>
+                    <td>HOME LOAN</td>
+                </tr>
+
+
+                <tr>
+
+
+                    </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="column-card2">
+          <div class="card">
+            <table class="table" width="90%" style="margin-top:-8px">
+
+
+                <tr>
+
+                    <td style="font-weight:bold">Status:</td>
+                    <td>Work in Progress</td>
+                </tr>
+                <tr>
+
+                    <td style="font-weight:bold">Type:</td>
+                    <td>Individual Technical Request</td>
+                </tr>
+
+                <tr>
+
+                    <td style="font-weight:bold">Technical Admin:</td>
+                    <td>VAIBHAV KHARALKAR</td>
+                </tr>
+                <tr>
+
+                    <td style="font-weight:bold"> Business Group:</td>
+                    <td>HL - HFC MORTGAGES</td>
+                </tr>
+
+                <tr>
+
+                    <td style="font-weight:bold"> Request For:</td>
+                    <td>HFC</td>
+                </tr>
+
+                <tr>
+
+                    <td style="font-weight:bold"> Products:</td>
+                    <td>HOME LOAN-SELF CONSTRUCTION</td>
+                </tr>
+
+                <tr>
+
+
+                    </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </center>
+  
+    <!-- card1 and card2 area ends-->
+
+
+    <!-- 2nd divider starts-->
+    <div class="area21">
+        <div class="area2-container">
+            <div class="area21-item">
+                <img src="images/1.2.svg" alt="LOGO" class="area2-icon">
+                <span class="area2-text">FIRST SITE VISIT REPORT</span>
+            </div>
+            <div class="area2-hr">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2nd divider ends-->
+
+    <center>
+        <div class="pd1">
+    
+            <div class="t1">
+                
+                <table class="t1-table">
+                    <tr>
+                        <td style="font-weight:bold">Property Type:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select> </td>
+                    </tr>
+                
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Unit Type:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select></td>
+                    </tr>
+
+
+                    <tr>
+    
+                        <td style="font-weight:bold">Loan Property Type:</td>
+                        <td><select> Select Branch
+                            <option value="default">Select </option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                          </select></td>
+                    </tr>
+
+                    
+
+                    <tr>
+    
+                        <td style="font-weight:bold">Property Address:</td>
+                        <td>Sundar Nagar Khewat No 276 Khatoni No 292
+                            Khasara No 3/20, 21, 4/16
+                            Tehsil and Distt Ambala
+                            Haryana Pincode 133001</td>
+                    </tr>
+    
+    
+                 
+                    </tbody>
+                </table>
+    
+    
+    
+            </div>
+    
+            <div class="t2">
+                
+                <table class="t1-table">
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Legal Address:</td>
+                        <td>PLOT NO 35A VILLAGE MACHHONDI HADBAST NO 124 Khewat No 276 Khatoni No 292 Khasara No 3/20, 21, 4/16 Tehsil and Distt Ambala Haryana Pincode 133001. Jambandi Year 2017 - 2018</td>
+                    </tr>
+                    <tr>
+    
+                        <td style="font-weight:bold">Pin:</td>
+                        <td>560077</td>
+                    </tr>
+
+    
+    
+    
+                    </tbody>
+                </table>
+    
+    
+            </div>
+    
+        </div>
+    </center>
+
+
+
+ 
+
+    <!-- property details section ends-->
+    <div class="area21">
+        <div class="area2-container">
+            <div class="area21-item">
+                <img src="images/1.3.svg" alt="LOGO" class="area2-icon">
+                <span class="area2-text">CONTACT PERSON DETAIL</span>
+            </div>
+            <div class="area2-hr">
+                <hr>
+            </div>
+        </div>
+      </div>
+
+
+      <center>
+        <div class="row-card" >
+            <div class="column-card1" >
+              <div class="card" style="height:150px">
+                <table class="table" width="90%">
+    
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Name:</td>
+                        <td>RAJNEESH</td>
+                    </tr>
+                    <tr>
+    
+                        <td style="font-weight:bold">Customer Mobile No:</td>
+                        <td>988776554322</td>
+                    </tr>
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Req Initiator Id:</td>
+                        <td>NA</td>
+                    </tr>
+                    
+    
+    
+                        </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="column-card2">
+              <div class="card" style="height:150px">
+                <table class="table" width="90%" style="margin-top:-8px">
+    
+    
+                    <tr>
+    
+                        <td style="font-weight:bold">Sales Manager Mobile No:</td>
+                        <td>988776554322</td>
+                    </tr>
+                    <tr>
+    
+                        <td style="font-weight:bold">Req Initiator Name/CPC Code:</td>
+                        <td>NA</td>
+                    </tr>
+    
+    
+    
+                        </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+    
+        </center>
+
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/1.4.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">PHYSICAL DETAILS</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+
+          <center>
+            <div class="pd1">
+        
+                <div class="t1" style="width:100%">
+                    
+                    <table class="t1-table" >
+
+                        <tr>
+                            <th style="font-weight:bold">Direction</th>
+                            <th>As Per Sale Deed</th>
+                            <th>Actual At Site</th>
+                        </tr>
+
+
+                        <tr>
+                            <td>East</td>
+                            <td><div class="white-box-5"></div> </td>
+                            <td><div class="white-box-5"></div>  </td>
+                        </tr>
+                    
+        
+                        <tr>
+                            <td>West</td>
+                            <td> <div class="white-box-5"></div></td>
+                            <td> <div class="white-box-5"></div> </td>
+                        </tr>
+    
+    
+                        <tr>
+        
+                            <td>North</td>
+                            <td> <div class="white-box-5"></div></td>
+                            <td><div class="white-box-5"></div>  </td>
+                        </tr>
+    
+                        
+    
+                        <tr>
+        
+                            <td>South</td>
+                            <td><div class="white-box-5"></div> </td>
+                            <td><div class="white-box-5"></div>  </td>
+                        </tr>
+        
+        
+                     
+                        </tbody>
+                    </table>
+        
+        
+        
+                </div>
+        
+             
+        
+            </div>
+        </center>
+    
+
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/1.5.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">PROPERTY DETAILS</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+
+          <center>
+            <div class="pd">
+        
+                <div class="t1">
+                    
+                    <table class="t1-table">
+                        <tr>
+                            <td style="font-weight:bold">Plot Area (in sq. ft):</td>
+                            <td><div class="blue-box"></div> </td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Approved Land Use:</td>
+                            <td><select class="select1"> 
+                                <option value="default">Select  </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select> </td>
+                        </tr>
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Nature of Locality:</td>
+                            <td><select class="select1"> 
+                                <option value="default">Select  </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Property Location:</td>
+                            <td><select class="select1"> 
+                                <option value="default">Select  </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight:bold">Property Type:</td>
+                            <td><div class="blue-box">0.0</div></td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Residual Age:</td>
+                            <td><div class="blue-box"></div></td>
+                        </tr>
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">To Be Filled:</td>
+                            <td>   <div class="application-request-option">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      Yes
+                                    </label>
+                                  </div>
+                                  <div class="form-check form123">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      No
+                                    </label>
+                                  </div>
+                            </div></td>
+                        </tr>
+
+                        <tr>
+        
+                            <td style="font-weight:bold">Carpet Area Measured:</td>
+                            <td><select class="select1"> 
+                                <option value="default">Select  </option>
+                                <option value="option2">No</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+        
+        
+                        </tbody>
+                    </table>
+        
+        
+        
+                </div>
+        
+                <div class="t2">
+                    
+                    <table class="t1-table">
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Virtual Visit:</td>
+                            <td><select class="select1"> 
+                                <option value="default">Select  </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Billing Criteria:</td>
+                            <td><select class="select1"> 
+                                <option value="default">Select  </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Plot Demarcated At Site:</td>
+                            <td><div class="blue-box"></div></td>
+                        </tr>
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Class of Locality:</td>
+                            <td><select class="select1"> 
+                                <option value="default">Select  </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+        
+                        <td style="font-weight:bold">Distance From City Center:</td>
+                        <td><div class="blue-box"></div></td>
+                        </tr>
+        
+                        <td style="font-weight:bold">No. Of Floors: G/S+</td>
+                        <td><div class="blue-box"></div></td>
+                        </tr>
+
+                        <tr>
+        
+                            <td style="font-weight:bold">Green Housing:</td>
+                            <td>   <div class="application-request-option">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      Yes
+                                    </label>
+                                  </div>
+                                  <div class="form-check form123">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      No
+                                    </label>
+                                  </div>
+                            </div></td>
+                        </tr>
+        
+                        <td style="font-weight:bold">Nature of Location:</td>
+                        <td>Urban</td>
+                        </tr>
+        
+        
+        
+        
+                        </tbody>
+                    </table>
+        
+        
+                </div>
+        
+            </div>
+        </center>
+
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/6.0.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">UNIT DETAILS</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+
+
+
+          <center>
+            <div class="pd1">
+        
+                <div class="t1" style="width:100%">
+                    
+                    <table class="t1-table" >
+
+                        <tr>
+                            <th style="font-weight:bold">Description</th>
+                            <th>As Per Sale Deed</th>
+                            <th>Actual At Site</th>
+                            <th>Actual At Site</th>
+                            <th>Actual At Site</th>
+                        </tr>
+
+
+                        <tr>
+                            <td>Ground Floor</td>
+                            <td><div class="white-box-5-a-1"></div> </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                        </tr>
+                    
+        
+                        <tr>
+                            <td></td>
+                            <td> <div class="white-box-5-a-1"></div></td>
+                            <td> <div class="white-box-5-a-1"></div> </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                        </tr>
+    
+    
+                        <tr>
+        
+                            <td>First Floor</td>
+                            <td> <div class="white-box-5-a-1"></div></td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                        </tr>
+    
+                        
+    
+                        <tr>
+        
+                            <td>Second Floor</td>
+                            <td><div class="white-box-5-a-1"></div> </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                        </tr>
+        
+
+                        <tr>
+        
+                            <td>Other 1</td>
+                            <td> <div class="white-box-5-a-1"></div></td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                        </tr>
+    
+                        
+    
+                        <tr>
+        
+                            <td>Other 2</td>
+                            <td><div class="white-box-5-a-1"></div> </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                            <td><div class="white-box-5-a-1"></div>  </td>
+                        </tr>
+        
+                     
+                        </tbody>
+                    </table>
+        
+        
+        
+                </div>
+        
+             
+        
+            </div>
+        </center>
+
+
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/1.6.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">INTERNAL SPECIFICATIONS</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+
+          <center>
+            <div class="pd">
+        
+                <div class="t1" style="width:100%">
+                    
+                    <table class="t1-table" >
+
+                        <tr>
+                            <th style="font-weight:bold">Description</th>
+                            <th>As per Estimate</th>
+                            <th></th>
+                            <th>Actual at Site</th>
+                            <th></th>
+                        </tr>
+
+
+                        <tr>
+                            <th style="font-weight:bold"></th>
+                            <th>Quantity</th>
+                            <th>Specification</th>
+                            <th>Quantity</th>
+                            <th>Specification</th>
+                        </tr>
+
+
+
+                        <tr>
+                            <td>Ground Floor</td>
+                            <td>0</td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+                    
+        
+                        <tr>
+                            <td>First Floor</td>
+                            <td> 0</td>
+                            <td> <div class="white-box-5-a"></div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+    
+    
+                        <tr>
+        
+                            <td>Second Floor</td>
+                            <td>0</td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+                            <td>Other1</td>
+                            <td>0</td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+                        <tr>
+        
+                            <td>Other2</td>
+                            <td>0</td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+    
+                        
+    
+                       
+        
+                     
+                        </tbody>
+                    </table>
+        
+        
+        
+                </div>
+        
+             
+        
+            </div>
+        </center>
+
+
+
+
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/1.7.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">EXTERNAL SPECIFICATIONS</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+
+          <center>
+            <div class="pd">
+        
+                <div class="t1" style="width:100%">
+                    
+                    <table class="t1-table" >
+
+                        <tr>
+                            <th style="font-weight:bold">Description</th>
+                            <th>As per Estimate</th>
+                            <th></th>
+                            <th>Actual at Site</th>
+                            <th></th>
+                        </tr>
+
+
+                        <tr>
+                            <th style="font-weight:bold"></th>
+                            <th>Quantity</th>
+                            <th>Specification</th>
+                            <th>Quantity</th>
+                            <th>Specification</th>
+                        </tr>
+
+
+
+                        <tr>
+                            <td>Compound Wall</td>
+                            <td>0</td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+                    
+        
+                        <tr>
+                            <td>Land Scaping</td>
+                            <td> 0</td>
+                            <td> <div class="white-box-5-a"></div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+    
+    
+                        <tr>
+        
+                            <td>Overall</td>
+                            <td>0</td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+    
+                        
+    
+                       
+        
+                     
+                        </tbody>
+                    </table>
+        
+        
+        
+                </div>
+        
+             
+        
+            </div>
+        </center>
+
+        
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/1.8.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">VALUATION</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+  
+          <center>
+            <div class="pd1">
+        
+                <div class="t1">
+                    
+                    <table class="t1-table">
+                        <tr>
+                            <td style="font-weight:bold">Land Area (Sq. Ft.)</td>
+                            <td> <div class="white-box-5-a-1-1"></div> </td>
+                        </tr>
+                    
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Land Value (A):</td>
+                            <td> <div class="white-box-5-a-1-1"></div></td>
+                        </tr>
+    
+    
+                        <tr>
+        
+                            <td style="font-weight:bold">Construction/Sellable Area (Sq. Ft.): </td>
+                            <td> <div class="white-box-5-a-1-1"></div></td>
+                        </tr>
+    
+                        
+    
+                        <tr>
+        
+                            <td style="font-weight:bold">Cost of Construction (B):</td>
+                            <td> <div class="white-box-5-a-1-1"></div></td>
+                        </tr>
+        
+        
+                     
+                        </tbody>
+                    </table>
+        
+        
+        
+                </div>
+        
+                <div class="t2">
+                    
+                    <table class="t1-table">
+        
+                        <tr>
+                            <td style="font-weight:bold">Land Rate (Sq. Ft.)</td>
+                            <td> <div class="white-box-5-a-1-1"></div> </td>
+                        </tr>
+                    
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Approved Cost of Construction as per 
+                                City Classification (Per Sq. Ft.)</td>
+                            <td> <div class="white-box-5-a-1-1"></div></td>
+                        </tr>
+    
+    
+                        <tr>
+        
+                            <td style="font-weight:bold">Material At Site</td>
+                            <td> <div class="white-box-5-a-1-1"></div></td>
+                        </tr>
+    
+                        
+    
+                        
+        
+        
+                        </tbody>
+                    </table>
+        
+        
+                </div>
+        
+            </div>
+        </center>
+
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/1.9.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">OTHER VALUATION DETAILS</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+
+
+
+
+          <center>
+            <div class="pd">
+        
+                <div class="t1" style="width:100%">
+                    
+                    <table class="t1-table" >
+
+                        <tr>
+          
+                            <td style="font-weight: bold;">Description</td>
+                            <td style="font-weight: bold;">Rate (Per Sq. Ft.) </td>
+                            <td style="font-weight: bold;">Qty.         </td>
+                            <td style="font-weight: bold;">Amount  </td>
+                        </tr>
+                    
+
+
+                        <tr>
+          
+                            <td><div class="white-box-5-a">LAND</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+                    
+        
+                        <tr>
+              
+                            <td> <div class="white-box-5-a">DESC1</div></td>
+                            <td> <div class="white-box-5-a"></div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+    
+    
+                        <tr>
+        
+                           
+                            <td> <div class="white-box-5-a">DESC2</div></td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+    
+                        
+    
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC3</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+        
+
+                        <tr>
+        
+             
+                            <td> <div class="white-box-5-a">DESC4</div></td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+    
+                        
+    
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC5</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC6</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC7</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC8</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC9</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC10</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC11</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC12</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC13</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+
+                        <tr>
+        
+               
+                            <td><div class="white-box-5-a">DESC14</div> </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                            <td><div class="white-box-5-a"></div>  </td>
+                        </tr>
+        
+                     
+                        </tbody>
+                    </table>
+        
+        
+        
+                </div>
+        
+             
+        
+            </div>
+        </center>
+
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/2.0.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">VALUATION AS PER GOVT. APPROVAL</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+
+
+          <center>
+            <div class="pd1">
+        
+                <div class="t1">
+                    
+                    <table class="t1-table">
+                        <tr>
+                            <td style="font-weight:bold">Plot Area (in sq. ft):</td>
+                            <td><div class="white-box-5-a-1"></div> </td>
+                        </tr>
+                    
+        
+                    
+    
+    
+                        <tr>
+        
+                            <td style="font-weight:bold">Approved Land Use:</td>
+                            <td><select> Select Branch
+                                <option value="default">Select </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+    
+                        
+    
+                        <tr>
+        
+                            <td style="font-weight:bold">Nature of Locality::</td>
+                            <td><select> Select 
+                                <option value="default">Select </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+        
+        
+                     
+                        </tbody>
+                    </table>
+        
+        
+        
+                </div>
+        
+                <div class="t2">
+                    
+                    <table class="t1-table">
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Virtual Visit:</td>
+                            <td><select> Select 
+                                <option value="default">No</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Billing Criteria:</td>
+                            <td><select> Select 
+                                <option value="default">Select </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                              </select></td>
+                        </tr>
+    
+        
+        
+        
+                        </tbody>
+                    </table>
+        
+        
+                </div>
+        
+            </div>
+        </center>
+
+
+        <div class="area21">
+            <div class="area2-container">
+                <div class="area21-item">
+                    <img src="images/2.1.svg" alt="LOGO" class="area2-icon">
+                    <span class="area2-text">OCCUPANCY DETAILS</span>
+                </div>
+                <div class="area2-hr">
+                    <hr>
+                </div>
+            </div>
+          </div>
+
+
+
+          <center>
+            <div class="row-card">
+                <div class="column-card1" >
+                  <div class="card" style="height:125px">
+                    <table class="table" width="90%">
+        
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Status of Occupancy:</td>
+                            <td>HRQ-22-264</td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Occupied By:</td>
+                            <td><div class="white-box-5-a"></div> </td>
+                        </tr>
+        
+                      
+        
+        
+                            </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="column-card2">
+                  <div class="card" style="height:125px">
+                    <table class="table" width="90%" style="margin-top:-8px">
+        
+        
+                        <tr>
+        
+                            <td style="font-weight:bold">Customer Relation with Occupant:</td>
+                            <td><div class="blue-box-5-a-1-1"></div> </td>
+                        </tr>
+                        <tr>
+        
+                            <td style="font-weight:bold">Occupied Since:</td>
+                            <td><div class="blue-box-5-a-1-1"></div> </td>
+                        </tr>
+        
+                       
+        
+                            </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+        
+            </center>
+          
+
+
+            <div class="area21">
+                <div class="area2-container">
+                    <div class="area21-item">
+                        <img src="images/2.2.svg" alt="LOGO" class="area2-icon">
+                        <span class="area2-text">STAGE OF CONSTRUCTION</span>
+                    </div>
+                    <div class="area2-hr">
+                        <hr>
+                    </div>
+                </div>
+              </div>
+
+
+              <center>
+                <div class="pd1">
+            
+                    <div class="t1" style="width:100%">
+                        
+                        <table class="t1-table" >
+    
+                            <tr>
+                                <th style="font-weight:bold">Structure Description</th>
+                                <th>Description of Stage</th>
+                                <th>% Completed</th>
+                                <th>% Recommended</th>
+                            </tr>
+    
+    
+                            <tr>
+                                <td><select> Select 
+                                    <option value="default">Select </option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                  </select> </td>
+                                <td><div class="white-box-5-a-1"></div>  </td>
+                                <td><div class="white-box-5-a-1"></div>  </td>
+                                <td><div class="white-box-5-a-1"></div>  </td>
+                            </tr>
+                        
+            
+            
+                         
+                            </tbody>
+                        </table>
+            
+            
+            
+                    </div>
+            
+                 
+            
+                </div>
+            </center>
+
+            <center>
+                <div class="pd1">
+            
+                    <div class="t1" style="width:100%">
+                        
+                        <table class="t1-table" >
+    
+                            <tr>
+                                <th style="font-weight:bold">Amenities</th>
+                                <th>Description of Stage</th>
+                                <th>% Completed</th>
+                                <th>% Recommended</th>
+                            </tr>
+    
+    
+                            <tr>
+                                <td><div class="white-box-5-a-1"></div> </td>
+                                <td><div class="white-box-5-a-1"></div>  </td>
+                                <td><div class="white-box-5-a-1"></div>  </td>
+                                <td><div class="white-box-5-a-1"></div>  </td>
+                            </tr>
+                        
+            
+            
+                         
+                            </tbody>
+                        </table>
+            
+            
+            
+                    </div>
+            
+                 
+            
+                </div>
+            </center>
+    
+
+            <div class="area21">
+                <div class="area2-container">
+                    <div class="area21-item">
+                        <img src="images/2.3.svg" alt="LOGO" class="area2-icon">
+                        <span class="area2-text">VIOLATIONS OBSERVED</span>
+                    </div>
+                    <div class="area2-hr">
+                        <hr>
+                    </div>
+                </div>
+              </div>
+
+              <center>
+                <div class="pd2">
+            
+             
+            
+        
+                </div>
+            </center>
+
+
+              <div class="area21">
+                <div class="area2-container">
+                    <div class="area21-item">
+                        <img src="images/2.4.svg" alt="LOGO" class="area2-icon">
+                        <span class="area2-text">REMARKS</span>
+                    </div>
+                    <div class="area2-hr">
+                        <hr>
+                    </div>
+                </div>
+              </div>
+
+              <center>
+                <div class="pd2">
+            
+             
+            
+        
+                </div>
+            </center>
+
+
+
+            <div class="area21">
+                <div class="area2-container">
+                    <div class="area21-item">
+                        <img src="images/2.5.svg" alt="LOGO" class="area2-icon">
+                        <span class="area2-text">ATTACHED DOCUMENTS</span>
+                    </div>
+                    <div class="area2-hr">
+                        <hr>
+                    </div>
+                </div>
+              </div>
+
+
+
+              <center>
+                <div class="pd">
+            
+                    <div class="t1" style="width:100%">
+                        
+                        <table class="t1-table" >
+    
+                            <tr>
+                                <th style="font-weight:bold">Document Name</th>
+                                <th>Field Name</th>
+                                <th>Field Value</th>
+                                <th>Field Name</th>
+                                <th>Field Value</th>
+                                <th>Field Name</th>
+                                <th>Field Value</th>
+                            </tr>
+
+                            <tr>
+                                <th style="font-weight:bold">TECHNICAL</th>
+                            
+                            </tr>
+    
+    
+    
+    
+                            <tr>
+                                <td>SITE PLAN</td>
+                                <td>PLAN APPROVAL NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF APPROVAL </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>APPROVING AUTHORITY </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>APPROVED LAYOUT PLANS</td>
+                                <td>PLAN APPROVAL NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF APPROVAL </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>APPROVING AUTHORITY </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>MAP SUBMISSION RECEIPT</td>
+                                <td>RECEIPT NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ISSUANCE</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>OFFICE OF ISSUANCE</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>APPROVED BUILDING PLAN</td>
+                                <td>PLAN APPROVAL NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF APPROVAL</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>APPROVING AUTHORITY</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+                        
+                        
+                            <tr>
+                                <td>ROUTE MAP</td>
+                                <td>DETAILS</td>
+                                <td> </td>
+                                <td></td>
+                                <td> </td>
+                                <td></td>
+                                <td> </td>
+                            </tr>
+                        
+                        
+            
+                           
+                           
+            
+                         
+                            </tbody>
+                        </table>
+            
+            
+            
+                    </div>
+            
+                 
+            
+                </div>
+            </center>
+
+            
+
+
+
+
+
+            <center>
+                <div class="pd">
+            
+                    <div class="t1" style="width:100%">
+                        
+                        <table class="t1-table" >
+    
+                            <tr>
+                                <th style="font-weight:bold">BOTH</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <td>COMMENCEMENT CERTIFICATE</td>
+                                <td>CERTIFICATE NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ISSUANCE </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ISSUANCE </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>OCCUPANCY CERTIFICATE</td>
+                                <td>CERTIFICATE NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ISSUANCE </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ISSUANCE </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>DEED FOR UNDIVIDED SHARE OF LAND</td>
+                                <td>DEED NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF EXECUTION</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>OFFICE OF 
+                                    REGISTRATION</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>CONSTRUCTION AGREEMENT</td>
+                                <td>DETAILS</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                
+                            </tr>
+
+                            <tr>
+                                <td>VILLAGE MAP</td>
+                                <td>DETAILS</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                              
+                            </tr>
+
+                            <tr>
+                                <td>ZONING CERTIFICATE</td>
+                                <td>CERTIFICATE NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ISSUANCE </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ISSUANCE </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>SANAD FOR INDUSTRIAL USE</td>
+                                <td>ORDER NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ORDER </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF ISSUANCE </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>FOUR BOUNDARIES MAP/CHATUSIMA
+                                    MAP FROM COMPETENT AUTHORITY
+                                    FOR AGRICULTURE LAND</td>
+                                <td>DETAILS</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                              
+                            </tr>
+
+                            <tr>
+                                <td>DEED OF DECLARATION</td>
+                                <td>REGISTRATION NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF 
+                                    REGISTRATION </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>OFFICE OF 
+                                    REGISTRATION </td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>CORRECTION DEED</td>
+                                <td>REGISTRATION NO.</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>DATE OF 
+                                    REGISTRATION</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                                <td>OFFICE OF 
+                                    REGISTRATION</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                            </tr>
+
+                            <tr>
+                                <td>KHARSA GIRDWARI BY PATWARI</td>
+                                <td>DETAILS</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                              
+                            </tr>
+
+                            <tr>
+                                <td>COPY OF COLONISER LICENCE AND
+                                    DEVELOPMENT PERMISSION</td>
+                                <td>DETAILS</td>
+                                <td><div class="white-box-5-a"></div>  </td>
+                              
+                            </tr>
+                         
+                            </tbody>
+                        </table>
+            
+            
+            
+                    </div>
+            
+                 
+            
+                </div>
+            </center>
+
+
+
+            <div class="area21">
+                <div class="area2-container">
+                    <div class="area21-item">
+                        <img src="images/2.6.svg" alt="LOGO" class="area2-icon">
+                        <span class="area2-text">UPLOAD DOCUMENTS</span>
+                    </div>
+                    <div class="area2-hr">
+                        <hr>
+                    </div>
+                </div>
+              </div>
+
+              <center>
+                <div class="pd1">
+            
+                    <div class="t1">
+                        
+                        <table class="t1-table">
+                            <tr>
+                                <td style="font-weight:bold"><form action="/action_page.php">
+                                  <input type="file" id="myFile" name="filename">
+                                  </form></td>
+                                <td> Allowed Image Type: jpeg </td>
+                            </tr>
+                        
+            
+                            <tr>
+            
+                                <td style="font-weight:bold">File Save by Name:</td>
+                                <td> <div class="white-box-5-b-1-1"></div></td>
+                            </tr>
+        
+        
+                            <tr>
+            
+                                <td style="font-weight:bold">Original File Name: </td>
+                                <td> <div class="white-box-5-b-1-1"></div></td>
+                            </tr>
+        
+                            <tr>
+            
+                                <td style="font-weight:bold">Image Taken Date: </td>
+                                <td> <div class="white-box-5-b-1-1"></div></td>
+                            </tr>
+        
+                            
+        
+                            <tr>
+            
+                                <td style="font-weight:bold;color: #AD1616;">Max File Size: 100kB</td>
+                                <td> <div class="white-box-5-b-1-1"></div></td>
+                            </tr>
+            
+            
+                         
+                            </tbody>
+                        </table>
+            
+            
+            
+                    </div>
+            
+                    <div class="t2">
+                        
+                        <table class="t1-table">
+            
+                            <tr>
+                                <td style="font-weight:bold"><form action="/action_page.php">
+                                  <input type="file" id="myFile" name="filename">
+                                  </form></td>
+                                <td> Allowed Image Type: jpeg </td>
+                            </tr>
+                        
+            
+                            <tr>
+            
+                                <td style="font-weight:bold">File Save by Name:</td>
+                                <td> <div class="white-box-5-b-1-1"></div></td>
+                            </tr>
+        
+        
+                            <tr>
+            
+                                <td style="font-weight:bold">Original File Name: </td>
+                                <td> <div class="white-box-5-b-1-1"></div></td>
+                            </tr>
+        
+                            <tr>
+            
+                                <td style="font-weight:bold">Image Taken Date: </td>
+                                <td> <div class="white-box-5-b-1-1"></div></td>
+                            </tr>
+        
+                            
+        
+                            <tr>
+            
+                                <td style="font-weight:bold;color: #AD1616;">Max File Size: 100kB</td>
+                                <td> <div class="white-box-5-b-1-1"></div></td>
+                            </tr>
+            
+            
+        
+                            
+            
+            
+                            </tbody>
+                        </table>
+            
+            
+                    </div>
+            
+                </div>
+            </center>
+
+
+
+            
+            <div class="area21">
+                <div class="area2-container">
+                    <div class="area21-item">
+                        <img src="images/2.7.svg" alt="LOGO" class="area2-icon">
+                        <span class="area2-text">UPLOAD FIRST SITE IMAGES</span>
+                    </div>
+                    <div class="area2-hr">
+                        <hr>
+                    </div>
+                </div>
+              </div>
+
+              <p class="click-text">Click here for OmniDoc Upload</p>
+
+     
+              <div class="area21">
+                <div class="area2-container">
+                    <div class="area21-item">
+                        <img src="images/2.8.svg" alt="LOGO" class="area2-icon">
+                        <span class="area2-text">VISIT DETAILS</span>
+                    </div>
+                    <div class="area2-hr">
+                        <hr>
+                    </div>
+                </div>
+              </div>
+
+              <center>
+                <div class="pd">
+            
+                    <div class="t1">
+                        
+                        <table class="t1-table">
+                            <tr>
+                                <td style="font-weight:bold">Plot Area (in sq. ft):</td>
+                                <td><div class="blue-box-5-a-1-1"></div> </td>
+                            </tr>
+            
+                            </tbody>
+                        </table>
+            
+            
+            
+                    </div>
+            
+                    <div class="t2">
+                        
+                        <table class="t1-table">
+            
+                            <tr>
+            
+                                <td style="font-weight:bold">Plot Demarcated At Site:</td>
+                                <td><div class="blue-box-5-a-1-1"></div></td>
+                            </tr>
+                           
+                            </tbody>
+                        </table>
+            
+            
+                    </div>
+            
+                </div>
+            </center>
+
+
+            <center><div class="but">
+                <div class="but1">
+                       <div class="but1-text">Save</div>
+                </div>
+                <div class="but2">
+                    <div class="but2-text">Submit</div>
+                </div>
+                <div class="but3">
+                    <div class="but2-text">Back</div>
+                </div>
+            </div>
+        </center>
+    
+
+</body>
+
+</html>
+
+
+<script>
+    $(document).ready(function () {
+        $(".dropdown").hover(function () {
+            var dropdownMenu = $(this).children(".dropdown-menu");
+            if (dropdownMenu.is(":visible")) {
+                dropdownMenu.parent().toggleClass("open");
+            }
+        });
+    }); 
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
