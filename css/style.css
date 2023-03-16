@@ -567,7 +567,7 @@ select {
     width: 70%;
     border: none;
     color: black;
-    font-size: 16px;
+    font-size: 11px;
     padding: 2px 24px;
     text-align: center;
     text-decoration: none;
@@ -607,7 +607,7 @@ select {
     width: 70%;
     border: none;
     color: black;
-    font-size: 16px;
+    font-size: 11px;
     padding: 2px 24px;
     text-align: center;
     text-decoration: none;
@@ -734,6 +734,31 @@ color: #243C79;
     margin-right: 7px;
 }
 
+.but2-text
+{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+    color: #fff;
+}
+
+.but3-text,.but1-text
+{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+    color: 
+    #243C79;
+}
+
+
+
 .but3
 {
     box-sizing: border-box;
@@ -751,4 +776,22 @@ border-radius: 4px;
 padding-top: 6px;
 padding-top: 6px;
 margin-right: 2px;
+}
+
+.path1
+{
+    margin-left:5%;
+    margin-top:17px;
+    width:50%;
+    padding-bottom: 0px;
+}
+
+.text-path2
+{
+    margin-left:10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 40px;
 }
