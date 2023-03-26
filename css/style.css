@@ -513,7 +513,7 @@ line-height: 20px;
 
 .application-request
 {
-    width: 90%;
+    width: 89%;
     display: flex;
     margin-top:10px;
     background: #FFFFFF;
@@ -695,7 +695,7 @@ select {
 
 .click-text
 {
-    margin-left:75px;
+    margin-left:100px;
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
